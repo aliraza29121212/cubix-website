@@ -50,6 +50,7 @@ img {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   background: transparent;
+  border-bottom: rgb(230, 225, 225) 0.1px solid;
 }
 .navbar .navbar-nav .nav-link {
   padding: 1.875rem 1rem;
@@ -60,10 +61,12 @@ img {
   letter-spacing: 0.1rem;
   font-size: 1rem;
 }
+
 .navbar #btn1 {
   color: white;
   font-size: 1.1rem;
   font-weight: 600;
+  padding-right: 1.6rem;
 }
 .navbar #btn1 .fa-solid {
   padding-right: 0.6rem;
@@ -71,12 +74,14 @@ img {
 .navbar #btn2 {
   color: white;
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 1.1259rem;
   letter-spacing: 1px;
   background: linear-gradient(to right, #ffb484, #ff3b8c);
-  border-radius: 20px;
+  border-radius: 30px;
   outline: none;
-  box-shadow: none;
+  box-shadow: 10px, 10px, 10px rgba(0, 0, 0, 1.1);
+  padding: 0.6rem 0.9rem;
+  margin-right: 1.5rem;
 }
 .navbar-brand img {
   max-width: 65%;
@@ -121,7 +126,7 @@ img {
 
 /* services css */
 #services {
-  min-height: 700px;
+  min-height: 600px;
   height: 100%;
   /* background: linear-gradient(to right rgb(33, 33, 209) rgb(58, 109, 248))
     no-repeat scroll left center; */
@@ -132,4 +137,38 @@ img {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+}
+.services-text h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 800;
+}
+.services-text p {
+  color: white;
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.services-text #btn-3 {
+  color: white;
+  border-radius: 50px;
+  background: transparent;
+  border: white 1px solid;
+  padding: 1rem 1.9rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  transition: all 0.3s ease-in-out 0.3s;
+}
+.services-text #btn-3:hover {
+  background: rgba(162, 162, 223, 0.555);
+}
+.services-text #btn-3 span {
+  font-size: 0.8rem;
+}
+
+.services-text h6 {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding-top: 1.8rem;
 }
