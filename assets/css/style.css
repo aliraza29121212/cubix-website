@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 1rem;
+  line-height: 1.75rem;
+  overflow-x: hidden;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+a:hover,
+a:focus,
+.btn:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+ol li,
+ul li {
+  list-style: none;
+}
+button,
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+/* Header css */
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  z-index: 999;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background: transparent;
+}
+.navbar .navbar-nav .nav-link {
+  padding: 1.875rem 1rem;
+  text-transform: capitalize;
+  transition: 0.3s;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+}
+.navbar #btn1 {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.navbar #btn1 .fa-solid {
+  padding-right: 0.6rem;
+}
+.navbar #btn2 {
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  background: linear-gradient(to right, #ffb484, #ff3b8c);
+  border-radius: 20px;
+  outline: none;
+  box-shadow: none;
+}
+.navbar-brand img {
+  max-width: 65%;
+  padding-left: 2rem;
+}
+
+/* navbar sticky */
+
+.navbar-sticky-on .navbar-nav .nav-link {
+  color: black;
+}
+.navbar .navbar-brand-sticky {
+  display: none;
+}
+.navbar-sticky-on .navbar-brand-regular {
+  display: none;
+}
+.navbar-sticky-on .navbar-brand-sticky {
+  display: inline;
+}
+.navbar-sticky {
+  -webkit-transition: none;
+  transition: none;
+}
+.navbar-sticky-transitioned {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.navbar-sticky-moved-up {
+  position: fixed;
+  top: 0;
+  background: white;
+  margin-top: -6.25rem;
+}
+.navbar-sticky-on {
+  margin-top: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 15px;
+}
+
+/* services css */
+#services {
+  min-height: 700px;
+  height: 100%;
+  /* background: linear-gradient(to right rgb(33, 33, 209) rgb(58, 109, 248))
+    no-repeat scroll left center; */
+  background: linear-gradient(to right, rgb(73, 118, 241), rgb(66, 58, 182));
+
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
