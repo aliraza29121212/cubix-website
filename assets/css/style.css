@@ -123,10 +123,27 @@ img {
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 15px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 15px;
 }
+.offcanvas {
+  width: 45%;
+}
+.offcanvas-header {
+  height: 5rem;
+}
+.offcanvas-header h5 {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.offcanvas-body {
+  background-color: black;
+}
+.offcanvas-body ul li a {
+  color: white;
+  font-size: 1.1rem;
+}
 
 /* services css */
 #services {
-  min-height: 600px;
+  min-height: 700px;
   height: 100%;
   /* background: linear-gradient(to right rgb(33, 33, 209) rgb(58, 109, 248))
     no-repeat scroll left center; */
@@ -142,6 +159,7 @@ img {
   color: white;
   font-size: 3rem;
   font-weight: 800;
+  margin-top: 7rem;
 }
 .services-text p {
   color: white;
@@ -171,4 +189,16 @@ img {
   font-size: 1.1rem;
   font-weight: 700;
   padding-top: 1.8rem;
+}
+
+/* Slider */
+.slick-slide {
+  margin: 1.5rem 0rem;
+}
+.slick-slide img {
+  width: 100%;
+  padding-right: 1rem;
+}
+.hero-banner {
+  margin-top: 7rem;
 }
