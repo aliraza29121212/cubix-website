@@ -1,0 +1,71 @@
+@media (max-width: 1073px) {
+  .navbar #btn1 {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-right: 1.4rem;
+    display: flex;
+    display: inline-block;
+  }
+}
+@media (max-width: 1044px) {
+  .navbar #btn1 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-right: 1.4rem;
+    display: flex;
+    display: inline-block;
+  }
+  .navbar .navbar-nav .nav-link {
+    padding: 1.875rem 0.3rem;
+    text-transform: capitalize;
+    transition: 0.3s;
+    color: white;
+    font-weight: 500;
+
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 1030px) {
+  .navbar .navbar-nav .nav-link {
+    padding: 1.875rem 0.5rem;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+  }
+  .navbar .navbar-nav .nav-item:last-child {
+    margin-right: -0.9rem;
+  }
+
+  .navbar #btn1 {
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding-right: 1.4rem;
+    display: flex;
+    display: inline-block;
+  }
+  .navbar #btn2 {
+    color: white;
+    font-weight: 500;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    background: linear-gradient(to right, #ffb484, #ff3b8c);
+    border-radius: 30px;
+    outline: none;
+    box-shadow: 10px, 10px, 10px rgba(0, 0, 0, 1.1);
+    padding: 0.6rem 0.9rem;
+    margin-right: 1rem;
+    display: flex;
+    display: inline-block;
+  }
+}
+@media (max-width: 991px) {
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 575px) {
+}
+@media (max-width: 330px) {
+}
