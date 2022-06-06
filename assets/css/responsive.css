@@ -1,3 +1,10 @@
+@media (max-width: 1190px) {
+  .box .box-text p {
+    justify-content: center;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+}
 @media (max-width: 1073px) {
   .navbar #btn1 {
     color: white;
@@ -6,6 +13,18 @@
     padding-right: 1.4rem;
     display: flex;
     display: inline-block;
+  }
+
+  .box .box-text p {
+    justify-content: center;
+    text-align: center;
+    font-size: 0.8rem;
+
+    overflow: hidden;
+  }
+
+  .box .box-text p {
+    line-height: 1.2rem;
   }
 }
 @media (max-width: 1044px) {
@@ -25,6 +44,12 @@
     font-weight: 500;
 
     font-size: 0.9rem;
+  }
+  .box {
+    overflow: hidden;
+  }
+  .box .box-text p {
+    line-height: 1.2rem;
   }
 }
 
@@ -60,12 +85,97 @@
     display: flex;
     display: inline-block;
   }
+  .box {
+    overflow: hidden;
+  }
+  .box .box-text p {
+    line-height: 1.2rem;
+  }
 }
 @media (max-width: 991px) {
+  .hero-banner {
+    margin-top: 50px;
+  }
+  .home-2-row {
+    margin-left: 7rem;
+    margin-right: 7rem;
+
+    justify-content: center;
+  }
+  .home2-text {
+    text-align: center;
+  }
+  .box .box-text p {
+    font-size: 1rem;
+  }
+  .box .box-text .counter_item span {
+    margin-top: 1.4rem;
+  }
 }
 @media (max-width: 767px) {
+  .home-2-row {
+    margin-left: 6rem;
+    margin-right: 6rem;
+
+    justify-content: center;
+  }
 }
 @media (max-width: 575px) {
+  .home-2-row {
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+    justify-content: center;
+  }
+  .home2-text {
+    margin-bottom: 3rem;
+  }
+}
+@media (max-width: 413px) {
+  .home-2-row {
+    margin-left: 1rem;
+    margin-right: 2.6rem;
+
+    justify-content: center;
+  }
+}
+@media (max-width: 376px) {
+  .home-2-row {
+    margin-left: 1rem;
+    margin-right: 2rem;
+
+    justify-content: center;
+  }
+}
+@media (max-width: 361px) {
+  .home-2-row {
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    justify-content: center;
+  }
 }
 @media (max-width: 330px) {
+  .home-2-row {
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    justify-content: center;
+  }
+}
+@media (max-width: 282px) {
+  .home-2-row {
+    margin-left: 0.2rem;
+    margin-right: 0.5rem;
+
+    justify-content: center;
+  }
+}
+@media (max-width: 100px) {
+  .home-2-row {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+
+    justify-content: center;
+  }
 }
