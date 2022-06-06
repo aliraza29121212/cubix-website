@@ -236,7 +236,8 @@ img {
 
 .home-2-row {
   margin-top: 6rem;
-  margin-left: 4.7rem;
+  margin-left: 4.4rem;
+  margin-right: 4.4rem;
 }
 .home-2-row .home2-text h1 {
   color: #0157ec;
@@ -285,21 +286,58 @@ img {
   color: rgb(236, 233, 233);
   border: #0157ec 2px solid;
 }
+.single-counter {
+  position: relative;
+}
+.single-counter::after {
+  position: absolute;
+
+  height: 70%;
+  width: 0.63rem;
+  top: 50%;
+  right: 50%;
+  font-size: 30px;
+  transform: translate(-50%);
+  display: flex;
+}
+
 .box {
   border-radius: 8px 8px 8px 42px;
   background: white;
-  box-shadow: -35px 35px 80px #d0d0d0, 35px -35px 80px white;
-  padding: 2rem 1.5rem;
+  box-shadow: -2px 2px 10px #d0d0d0, 5px -5px 10px white;
+  padding: 2rem 0;
   padding-bottom: 1rem;
 }
-.box .box-text h2 {
+.box .box-text .counter_item span {
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
   font-weight: 700;
   color: rgb(23, 28, 43);
   padding-top: 1rem;
+}
+.box .box-text .counter_item #span2d {
+  position: absolute;
+  margin-left: 1.7rem;
+  font-size: 2rem;
+}
+.box .box-text .counter_item #span3d {
+  position: absolute;
+  margin-left: 2.4rem;
+  font-size: 2rem;
+}
+.box .box-text .counter_item #span4d {
+  position: absolute;
+  margin-left: 2.8rem;
+  font-size: 2rem;
 }
 .box .box-text p {
   color: #848499c0;
   font-weight: 700;
   font-size: 1rem;
   letter-spacing: 1.1px;
+  margin-top: 5.4rem;
 }
