@@ -407,6 +407,7 @@ img {
 .service-sec-2 {
   background: url(../images/Tiny-gray-squares-Seamless-Pattern.jpg);
   margin-top: 6.5rem;
+  padding-bottom: 5.5rem;
 }
 .service-sec-2-inner-text {
   padding-right: 2.5rem;
@@ -516,4 +517,97 @@ img {
   background: #0157ec;
   color: rgb(236, 233, 233);
   border: #044bc5 2px solid;
+}
+/* ========================
+        Work section
+   ======================== */
+.work {
+  background-color: #0157ec;
+  height: auto;
+  padding-bottom: 5rem;
+}
+.work h1 {
+  color: white;
+  padding-top: 5rem;
+  text-align: center;
+  font-size: 2.6rem;
+  font-size: 600;
+}
+.work-inner-box {
+  position: relative;
+  cursor: pointer;
+  transition: 1.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.work-inner-box .box-img img {
+  border-radius: 8px;
+}
+.work-inner-box .inner-box-text {
+  background: white;
+  box-shadow: 0 3.4px 2.7px -30px rgb(0 0 0 /6%),
+    0 8.2px 8.9px -30px rgb(0 0 0 /6%), 0 25px 40px -30px rgb(0 0 0 /20%);
+  text-align: center;
+  padding: 15px;
+  border-radius: 42px 8px 8px 8px;
+  position: relative;
+  top: -40px;
+  width: 95%;
+  margin: 0 auto;
+
+  /* padding-left: 7.8rem;
+  padding-right: 7.8rem;
+  position: absolute;
+  padding-top: 0.9rem;
+  margin-left: 0.8rem;
+  margin-top: -2.4rem; */
+}
+.work-inner-box .inner-box-text h4 {
+  color: rgb(23, 28, 43);
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.work-inner-box .inner-box-text p {
+  color: #4e4e50e0;
+  font-size: 1.0545rem;
+  font-weight: 400;
+  margin-top: -0.4rem;
+}
+.box-2nd-row {
+  margin-top: 2.8rem;
+}
+.work-inner-box:hover {
+  transform: translateY(-0.313rem);
+  -webkit-transform: all 0.3s ease;
+  -moz-transform: all 0.3s ease;
+  -ms-transform: all 0.3s ease;
+  -o-transform: all 0.3s ease;
+  transform: all 0.3s ease;
+}
+
+/* 
+===================
+   Client Section
+===================*/
+
+.clients {
+  padding-top: 5.5rem;
+}
+.clients h1 {
+  font-weight: 600;
+  color: rgb(34, 42, 65);
+  padding-bottom: 3.3rem;
+}
+.clients .clents-logo:hover {
+  box-shadow: 2px 3.4px 2.7px 1px rgba(36, 35, 35, 0.315),
+    0 8.2px 8.9px -30px rgba(31, 30, 30, 0.01),
+    0 25px 40px -30px rgba(36, 35, 35, 0.2);
+  transform: translateY(-0.313rem);
+  -webkit-transform: all 0.5s ease;
+  -moz-transform: all 0.5s ease;
+  -ms-transform: all 0.5s ease;
+  -o-transform: all 0.5s ease;
+  transform: all 0.5s ease;
+}
+.clients .clents-logo {
+  transition: all 0.5s ease;
 }
