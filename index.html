@@ -1,114 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cubix.</title>
-    <!-- bootstrap CDN -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <!-- font awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
-    <link rel="" href="./berlin/1001fonts-berlin-eula.txt" />
-    <!-- OWN css -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css" />
 
-    <!-- Themify Icons -->
-    <link rel="stylesheet" href="assets/css/themify-icons/themify-icons.css" />
-    <!-- silk Slider CDN -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"
-    />
-  </head>
-  <body data-bs-spy="scroll" data-bs-target=".navbar">
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-sticky">
-        <div class="container-fluid padding_zero">
-          <a class="navbar-brand" href="#">
-            <img
-              src="assets/images/cubix-logo.png"
-              alt=""
-              class="navbar-brand-regular"
-            />
-            <img
-              src="assets/images/cubix-logo-dark.png"
-              alt=""
-              class="navbar-brand-sticky"
-            />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasExample"
-            aria-controls="navbarText"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <!-- <span class="navbar-toggler-icon"></span> -->
-            <i class="fas fa-stream navbar-toggler-icon"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav ms-auto me-lg-0 me-4 list-unstyled">
-              <li class="nav-item">
-                <a class="nav-link scroll" aria-current="page" href="#services"
-                  >SERVICES</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link scroll" href="#work">WORK</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#clients">CLIENTS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#testmonial">TESTMONIAL</a>
-              </li>
-              <li class="nav-item" id="last-nav">
-                <a class="nav-link" href="#contact">CONTACT</a>
-              </li>
-            </ul>
-            <a href="">
-              <button id="btn1" class="btn">
-                <i class="fa-solid fa-phone"></i>877-757-6846
-              </button></a
-            >
-            <a href=""
-              ><button id="btn2" class="btn">Request A Quote</button></a
-            >
-          </div>
-        </div>
-      </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cubix.</title>
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="" href="./berlin/1001fonts-berlin-eula.txt" />
+  <!-- OWN css -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
 
-      <div
-        class="offcanvas offcanvas-start"
-        tabindex="-1"
-        id="offcanvasExample"
-        aria-labelledby="offcanvasExampleLabel"
-      >
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
-          <button
-            type="button"
-            class="btn-close text-reset"
-            data-bs-dismiss="offcanvas"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav ms-auto me-4 list-unstyled">
+  <!-- Themify Icons -->
+  <link rel="stylesheet" href="assets/css/themify-icons/themify-icons.css" />
+  <!-- silk Slider CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-sticky">
+      <div class="container-fluid padding_zero">
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/cubix-logo.png" alt="" class="navbar-brand-regular" />
+          <img src="assets/images/cubix-logo-dark.png" alt="" class="navbar-brand-sticky" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fas fa-stream navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ms-auto me-lg-0 me-4 list-unstyled">
             <li class="nav-item">
-              <a class="nav-link scroll" aria-current="page" href="#services"
-                >SERVICES</a
-              >
+              <a class="nav-link scroll" aria-current="page" href="#services">SERVICES</a>
             </li>
             <li class="nav-item">
               <a class="nav-link scroll" href="#work">WORK</a>
@@ -119,322 +48,325 @@
             <li class="nav-item">
               <a class="nav-link" href="#testmonial">TESTMONIAL</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" id="last-nav">
               <a class="nav-link" href="#contact">CONTACT</a>
             </li>
           </ul>
-          <div class="button-hader">
-            <a href="">
-              <button id="btn1" class="btn">
-                <i class="fa-solid fa-phone"></i></button
-            ></a>
-            <a href=""
-              ><button id="btn2" class="btn">
-                <i class="fa-solid fa-envelope"></i></button
-            ></a>
+          <a href="">
+            <button id="btn1" class="btn">
+              <i class="fa-solid fa-phone"></i>877-757-6846
+            </button></a>
+          <a href=""><button id="btn2" class="btn">Request A Quote</button></a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav ms-auto me-4 list-unstyled">
+          <li class="nav-item">
+            <a class="nav-link scroll" aria-current="page" href="#services">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link scroll" href="#work">WORK</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#clients">CLIENTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testmonial">TESTMONIAL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+        <div class="button-hader">
+          <a href="">
+            <button id="btn1" class="btn">
+              <i class="fa-solid fa-phone"></i></button></a>
+          <a href=""><button id="btn2" class="btn">
+              <i class="fa-solid fa-envelope"></i></button></a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- services section -->
+
+  <section id="home">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-sm-12 col-lg-6">
+          <div class="home-text">
+            <h1>Top App Development Company</h1>
+            <p>
+              We deliver mobile app experiences that get your mobile app
+              trending on the app stores.
+            </p>
+            <button id="btn-3" class="btn">
+              GET STARTED <span class="ti-angle-right"></span>
+            </button>
+            <h6>Our Accomplishments As An App Development Company</h6>
+          </div>
+          <section class="customer-logos slider">
+            <div class="slide">
+              <img src="assets/images/001.png" />
+            </div>
+            <div class="slide">
+              <img src="assets/images/002.png" />
+            </div>
+            <div class="slide">
+              <img src="assets/images/003.png" />
+            </div>
+            <div class="slide">
+              <img src="assets/images/004.png" />
+            </div>
+            <div class="slide">
+              <img src="assets/images/005.png" />
+            </div>
+            <div class="slide">
+              <img src="assets/images/001.png" />
+            </div>
+            <div class="slide">
+              <img src="assets/images/002.png" />
+            </div>
+            <div class="slide">
+              <img src="assets/images/003.png" />
+            </div>
+          </section>
+        </div>
+        <div class="col-sm-12 col-lg-6">
+          <div class="hero-banner">
+            <img src="assets/images/hero-banner.png" alt="" />
           </div>
         </div>
       </div>
-    </header>
+    </div>
+  </section>
 
-    <!-- services section -->
-
-    <section id="home">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-sm-12 col-lg-6">
-            <div class="home-text">
-              <h1>Top App Development Company</h1>
-              <p>
-                We deliver mobile app experiences that get your mobile app
-                trending on the app stores.
-              </p>
-              <button id="btn-3" class="btn">
-                GET STARTED <span class="ti-angle-right"></span>
-              </button>
-              <h6>Our Accomplishments As An App Development Company</h6>
+  <div class="container-fluid padding_zero">
+    <div class="row home-2-row">
+      <div class="col-sm-12 col-lg-6">
+        <div class="home2-text">
+          <h1>
+            Experience <span>World-class Agile Product Development</span>
+          </h1>
+          <p>
+            Harness digitized business solutions comprising web, android and
+            iOS app solutions leveraging Blockchain, AI Chatbots, Machine
+            Learning and IoT technologies for your startup or enterprise.
+          </p>
+          <h5>
+            Build and deploy thriving agile solutions that help you design,
+            develop, and scale.
+          </h5>
+          <h2>Let's Start a New Project Together</h2>
+          <a href="" class="btn">Request A Quote <span class="ti-angle-right"></span></a>
+        </div>
+      </div>
+      <div class="col-sm-12 col-lg-6">
+        <div class="row justify-content-center">
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="box me-lg-3 me-0 mb-lg-0 mb-5 mt-sm-5 mt-lg-3 single-counter">
+              <div class="box-text text-center">
+                <img src="assets/images/20-years (1).png" alt="" />
+                <div class="counter_item d-inline-block">
+                  <span id="count1" class="counter">12</span>
+                  <span id="span2d" class="fw-bold">+</span>
+                </div>
+                <p>Years Experience</p>
+              </div>
             </div>
-            <section class="customer-logos slider">
-              <div class="slide">
-                <img src="assets/images/001.png" />
-              </div>
-              <div class="slide">
-                <img src="assets/images/002.png" />
-              </div>
-              <div class="slide">
-                <img src="assets/images/003.png" />
-              </div>
-              <div class="slide">
-                <img src="assets/images/004.png" />
-              </div>
-              <div class="slide">
-                <img src="assets/images/005.png" />
-              </div>
-              <div class="slide">
-                <img src="assets/images/001.png" />
-              </div>
-              <div class="slide">
-                <img src="assets/images/002.png" />
-              </div>
-              <div class="slide">
-                <img src="assets/images/003.png" />
-              </div>
-            </section>
           </div>
-          <div class="col-sm-12 col-lg-6">
-            <div class="hero-banner">
-              <img src="assets/images/hero-banner.png" alt="" />
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="box me-lg-3 me-0 mb-lg-0 mb-5 mt-md-5 mt-lg-3 single-counter">
+              <div class="box-text text-center">
+                <div class="counter_item d-inline-block">
+                  <img src="assets/images/talented-squad (1).png" alt="" />
+                  <span id="count2" class="counter">250</span>
+                  <span id="span3d" class="fw-bold">+</span>
+                </div>
+                <p>Talented Squad</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="box me-lg-3 me-0 mb-lg-0 mb-5 mt-md-3 single-counter">
+              <div class="box-text text-center">
+                <div class="counter_item d-inline-block">
+                  <img src="assets/images/apps (1).png" alt="" />
+                  <span id="count3" class="counter">1200</span>
+                  <span id="span4d" class="fw-bold">+</span>
+                </div>
+                <p>Apps Developed</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="box me-lg-3 me-0 mt-lg-5 mt-sm-2 mt-md-3 single-counter">
+              <div class="box-text text-center">
+                <div class="counter_item d-inline-block">
+                  <img src="assets/images/projects--delivered (1).png" alt="" />
+                  <span id="count4" class="counter">100</span>
+                  <span id="span3d" class="fw-bold">%</span>
+                </div>
+                <p>Projects Delivered</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="box me-lg-3 me-0 mt-lg-5 mt-sm-5 mt-md-3 mt-5 single-counter">
+              <div class="box-text text-center">
+                <div class="counter_item d-inline-block">
+                  <img src="assets/images/120-countries (1).png" alt="" />
+                  <span id="count5" class="counter">50</span>
+                  <span id="span2d" class="fw-bold">+</span>
+                </div>
+                <p>Countries Served</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="box me-lg-3 me-0 mt-lg-5 mt-sm-5 mt-md-3 mt-5 single-counter">
+              <div class="box-text text-center">
+                <div class="counter_item d-inline-block">
+                  <img src="assets/images/client-satisfication (1).png" alt="" />
+                  <span id="count6" class="counter">100</span>
+                  <span id="span3d" class="fw-bolder">%</span>
+                </div>
+                <p>Client Satisfaction</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="services">
+      <div class="services-text text-center">
+        <h1 class="mt-5 pt-5">Our Services</h1>
+        <p>
+          We think big and have hands in all leading technology platforms to
+          provide <br />
+          you wide array of services.
+        </p>
+      </div>
+      <div class="container">
+        <div class="row services-row">
+          <div class="col-lg-4 col-md-6">
+            <div class="services-box">
+              <div class="inner-text">
+                <h3>iOS Development</h3>
+                <span>SWIFT | </span> <span>REALM | </span>
+                <span>COREDATA | </span> <span>OBJECTIVE C </span>
+                <p>
+                  Build powerful apps for the iOS platform covering a unique
+                  <br />
+                  user base.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="services-box mt-sm-5 mt-5 mt-lg-0 mt-md-0">
+              <div class="inner-text">
+                <h3>Android Development</h3>
+                <span>JAVA |</span> <span>SQLITE |</span>
+                <span>FIREBASE |</span> <span>ROOM </span>
+                <p>
+                  Create robust solutions for each industry across a vast
+                  <br />
+                  user base.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="services-box mt-md-5 mt-sm-5 mt-5 mt-lg-0">
+              <div class="inner-text">
+                <h3>Game Development</h3>
+                <span>BLENDER |</span> <span>MAYA |</span> <span>MAX |</span>
+                <span>UNITY </span>
+                <p>
+                  We build spectacular 2D and 3D multiplayer games for mobile
+                  devices powered by addictive gameplay.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <div class="container-fluid padding_zero">
-      <div class="row home-2-row">
-        <div class="col-sm-12 col-lg-6">
-          <div class="home2-text">
-            <h1>
-              Experience <span>World-class Agile Product Development</span>
-            </h1>
-            <p>
-              Harness digitized business solutions comprising web, android and
-              iOS app solutions leveraging Blockchain, AI Chatbots, Machine
-              Learning and IoT technologies for your startup or enterprise.
-            </p>
-            <h5>
-              Build and deploy thriving agile solutions that help you design,
-              develop, and scale.
-            </h5>
-            <h2>Let's Start a New Project Together</h2>
-            <a href="" class="btn"
-              >Request A Quote <span class="ti-angle-right"></span
-            ></a>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-6">
-          <div class="row justify-content-center">
-            <div class="col-sm-12 col-md-6 col-lg-4">
-              <div
-                class="box me-lg-3 me-0 mb-lg-0 mb-5 mt-sm-5 mt-lg-3 single-counter"
-              >
-                <div class="box-text text-center">
-                  <img src="assets/images/20-years (1).png" alt="" />
-                  <div class="counter_item d-inline-block">
-                    <span id="count1" class="counter">12</span>
-                    <span id="span2d" class="fw-bold">+</span>
-                  </div>
-                  <p>Years Experience</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4">
-              <div
-                class="box me-lg-3 me-0 mb-lg-0 mb-5 mt-md-5 mt-lg-3 single-counter"
-              >
-                <div class="box-text text-center">
-                  <div class="counter_item d-inline-block">
-                    <img src="assets/images/talented-squad (1).png" alt="" />
-                    <span id="count2" class="counter">250</span>
-                    <span id="span3d" class="fw-bold">+</span>
-                  </div>
-                  <p>Talented Squad</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4">
-              <div class="box me-lg-3 me-0 mb-lg-0 mb-5 mt-md-3 single-counter">
-                <div class="box-text text-center">
-                  <div class="counter_item d-inline-block">
-                    <img src="assets/images/apps (1).png" alt="" />
-                    <span id="count3" class="counter">1200</span>
-                    <span id="span4d" class="fw-bold">+</span>
-                  </div>
-                  <p>Apps Developed</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-12 col-md-6 col-lg-4">
-              <div
-                class="box me-lg-3 me-0 mt-lg-5 mt-sm-2 mt-md-3 single-counter"
-              >
-                <div class="box-text text-center">
-                  <div class="counter_item d-inline-block">
-                    <img
-                      src="assets/images/projects--delivered (1).png"
-                      alt=""
-                    />
-                    <span id="count4" class="counter">100</span>
-                    <span id="span3d" class="fw-bold">%</span>
-                  </div>
-                  <p>Projects Delivered</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4">
-              <div
-                class="box me-lg-3 me-0 mt-lg-5 mt-sm-5 mt-md-3 mt-5 single-counter"
-              >
-                <div class="box-text text-center">
-                  <div class="counter_item d-inline-block">
-                    <img src="assets/images/120-countries (1).png" alt="" />
-                    <span id="count5" class="counter">50</span>
-                    <span id="span2d" class="fw-bold">+</span>
-                  </div>
-                  <p>Countries Served</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4">
-              <div
-                class="box me-lg-3 me-0 mt-lg-5 mt-sm-5 mt-md-3 mt-5 single-counter"
-              >
-                <div class="box-text text-center">
-                  <div class="counter_item d-inline-block">
-                    <img
-                      src="assets/images/client-satisfication (1).png"
-                      alt=""
-                    />
-                    <span id="count6" class="counter">100</span>
-                    <span id="span3d" class="fw-bolder">%</span>
-                  </div>
-                  <p>Client Satisfaction</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <section id="services">
-        <div class="services-text text-center">
-          <h1 class="mt-5 pt-5">Our Services</h1>
-          <p>
-            We think big and have hands in all leading technology platforms to
-            provide <br />
-            you wide array of services.
-          </p>
-        </div>
-        <div class="container">
-          <div class="row services-row">
-            <div class="col-lg-4 col-md-6">
-              <div class="services-box">
-                <div class="inner-text">
-                  <h3>iOS Development</h3>
-                  <span>SWIFT | </span> <span>REALM | </span>
-                  <span>COREDATA | </span> <span>OBJECTIVE C </span>
-                  <p>
-                    Build powerful apps for the iOS platform covering a unique
-                    <br />
-                    user base.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="services-box mt-sm-5 mt-5 mt-lg-0 mt-md-0">
-                <div class="inner-text">
-                  <h3>Android Development</h3>
-                  <span>JAVA |</span> <span>SQLITE |</span>
-                  <span>FIREBASE |</span> <span>ROOM </span>
-                  <p>
-                    Create robust solutions for each industry across a vast
-                    <br />
-                    user base.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="services-box mt-md-5 mt-sm-5 mt-5 mt-lg-0">
-                <div class="inner-text">
-                  <h3>Game Development</h3>
-                  <span>BLENDER |</span> <span>MAYA |</span> <span>MAX |</span>
-                  <span>UNITY </span>
-                  <p>
-                    We build spectacular 2D and 3D multiplayer games for mobile
-                    devices powered by addictive gameplay.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div class="service-sec-2">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="service-sec-2-inner-text">
-                <h1>
-                  Here’s why people choose <span>choose</span> to work with
-                  <span>Cubix</span>
-                </h1>
-                <p>
-                  We treat you like a partner and build on your vision by
-                  showing you new possibilities and alternative that suit you
-                  better.
-                </p>
-                <div class="info pt-4">
+    <div class="service-sec-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="service-sec-2-inner-text">
+              <h1>
+                Here’s why people choose <span>choose</span> to work with
+                <span>Cubix</span>
+              </h1>
+              <p>
+                We treat you like a partner and build on your vision by
+                showing you new possibilities and alternative that suit you
+                better.
+              </p>
+              <div class="info pt-4">
                 <div class="row">
                   <!-- info-section 1 -->
-                    <div class="col-2">
-                      <div class="info-img">
-                        <img
-                          src="assets/images/computers.svg"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div class="col-10">
-                      <div class="info-text">
-                        <h3>Brainstorming and Ideation</h3>
-                        <p>
-                          We build and strategize solutions based on your vision
-                          so that you have all the options before moving forward
-                          with your project.
-                        </p>
-                      </div>
-                    </div>
-                     <!-- info-section 2 -->
-
-                     <div class="col-2 pt-2">
-                      <div class="info-img">
-                        <img
-                          src="assets/images/worker.svg"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div class="col-10 pt-2">
-                      <div class="info-text">
-                        <h3>100% satisfaction guaranteed</h3>
-                        <p>
-                          Your satisfaction is our very first priority. If you have any concern about your game, we are here to solve them in every possible manner with flexibility.
-                        </p>
-                      </div>
-                    </div>
-                    <!-- info-section 3 -->
-                    <div class="col-2 pt-2">
-                      <div class="info-img">
-                        <img
-                          src="assets/images/deal.svg"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div class="col-10 pt-2">
-                      <div class="info-text">
-                        <h3>24/7 communication</h3>
-                        <p>
-                          We are always there for you through Email, Call, or Skype.
-                        </p>
-                       
-                      </div>
+                  <div class="col-2">
+                    <div class="info-img">
+                      <img src="assets/images/computers.svg" alt="" />
                     </div>
                   </div>
+                  <div class="col-10">
+                    <div class="info-text">
+                      <h3>Brainstorming and Ideation</h3>
+                      <p>
+                        We build and strategize solutions based on your vision
+                        so that you have all the options before moving forward
+                        with your project.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- info-section 2 -->
+
+                  <div class="col-2 pt-2">
+                    <div class="info-img">
+                      <img src="assets/images/worker.svg" alt="" />
+                    </div>
+                  </div>
+                  <div class="col-10 pt-2">
+                    <div class="info-text">
+                      <h3>100% satisfaction guaranteed</h3>
+                      <p>
+                        Your satisfaction is our very first priority. If you have any concern about your game, we are
+                        here to solve them in every possible manner with flexibility.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- info-section 3 -->
+                  <div class="col-2 pt-2">
+                    <div class="info-img">
+                      <img src="assets/images/deal.svg" alt="" />
+                    </div>
+                  </div>
+                  <div class="col-10 pt-2">
+                    <div class="info-text">
+                      <h3>24/7 communication</h3>
+                      <p>
+                        We are always there for you through Email, Call, or Skype.
+                      </p>
+
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -443,7 +375,8 @@
               <img src="assets/images/why-choose.png" class="img-fluid" alt="">
             </div>
             <div class="img-section-inner-text text-center">
-              <p>Let's build a solution that fulfills your dream. With an experienced and talented team, you can build precisely what you need.</p>
+              <p>Let's build a solution that fulfills your dream. With an experienced and talented team, you can build
+                precisely what you need.</p>
               <h1>Start your <span>project</span> right away!</h1>
               <p class="mb-5">Time is of the essence. Let's talk today and see what we can do with your vision.</p>
               <a href="" class="mt-5">Call Now! <span class="ti-angle-right"></span></a>
@@ -452,164 +385,491 @@
         </div>
       </div>
     </div>
-     
- <section id="work" class="work">
-   <div class="container">
-     <div class="row">
-       <div class="col">
-         <h1>Our Latest Creative Work</h1>
-       </div>
-       <div class="row mt-5 pt-3">
-         <div class="col-lg-4 col-sm-6">
-            <div class="work-inner-box">
-              <div class="box-img">
-                <img src="assets/images/fluent-front.jpg" alt="">
+
+    <section id="work" class="work">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>Our Latest Creative Work</h1>
+          </div>
+          <div class="row mt-5 pt-3">
+            <div class="col-lg-4 col-sm-6">
+              <div class="work-inner-box">
+                <div class="box-img">
+                  <img src="assets/images/fluent-front.jpg" alt="">
+                </div>
+                <div class="inner-box-text text-center">
+                  <h4>Boodle</h4>
+                  <p>iOS, Android </p>
+                </div>
               </div>
-              <div class="inner-box-text text-center">
-                <h4>Boodle</h4>
-                <p>iOS, Android </p>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="work-inner-box mt-5 mt-sm-0">
+                <div class="box-img">
+                  <img src="assets/images/bizad-front.jpg" alt="">
+                </div>
+                <div class="inner-box-text text-center">
+                  <h4>Bizad</h4>
+                  <p>iOS, Android </p>
+                </div>
               </div>
             </div>
-         </div>
-         <div class="col-lg-4 col-sm-6">
-          <div class="work-inner-box mt-5 mt-sm-0">
-            <div class="box-img">
-              <img src="assets/images/bizad-front.jpg" alt="">
+            <div class="col-lg-4 col-sm-6">
+              <div class="work-inner-box mt-md-5 mt-sm-5 mt-lg-0  mt-5 mt-sm-0">
+                <div class="box-img">
+                  <img src="assets/images/oomco-front.jpg" alt="">
+                </div>
+                <div class="inner-box-text text-center">
+                  <h4>Oomco</h4>
+                  <p>iOS, Android </p>
+                </div>
+              </div>
             </div>
-            <div class="inner-box-text text-center">
-              <h4>Bizad</h4>
-              <p>iOS, Android </p>
+
+            <div class="col-lg-4 col-sm-6">
+              <div class="work-inner-box mt-5">
+                <div class="box-img">
+                  <img src="assets/images/curios-front.jpg" alt="">
+                </div>
+                <div class="inner-box-text text-center">
+                  <h4>Curious</h4>
+                  <p>iOS, Android </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="work-inner-box mt-5">
+                <div class="box-img">
+                  <img src="assets/images/hot-set-front.jpg" alt="">
+                </div>
+                <div class="inner-box-text text-center">
+                  <h4>Hotset</h4>
+                  <p>iOS, Android </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="work-inner-box mt-5">
+                <div class="box-img">
+                  <img src="assets/images/apply-up-front1.png" alt="">
+                </div>
+                <div class="inner-box-text text-center">
+                  <h4>ApplyUp</h4>
+                  <p>iOS, Android </p>
+                </div>
+              </div>
             </div>
           </div>
-       </div>
-       <div class="col-lg-4 col-sm-6">
-        <div class="work-inner-box mt-md-5 mt-sm-5 mt-lg-0  mt-5 mt-sm-0">
-          <div class="box-img">
-            <img src="assets/images/oomco-front.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Client section -->
+
+    <section id="clients" class="clients">
+      <div class="container">
+        <h1 class="text-center">Some of our Clients</h1>
+        <div class="row">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="clents-logo">
+              <img src="assets/images/suzuki-logo.png" alt="">
+            </div>
           </div>
-          <div class="inner-box-text text-center">
-            <h4>Oomco</h4>
-            <p>iOS, Android </p>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="clents-logo">
+              <img src="assets/images/artizone-logo.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="clents-logo">
+              <img src="assets/images/canon-logo-1.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="clents-logo mt-0 mt-sm-3">
+              <img src="assets/images/unilever.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="clents-logo mt-lg-0 mt-md-3 mt-3">
+              <img src="assets/images/dreamworks-logo.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="clents-logo mt-lg-0 mt-md-3 mt-3">
+              <img src="assets/images/estee-lauder.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="clents-logo mt-lg-4 mt-md-3 mt-3">
+              <img src="assets/images/politico.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="clents-logo mt-lg-4 mt-md-3 mt-3">
+              <img src="assets/images/sapient-logo-1.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="clents-logo mt-lg-4 mt-md-3 mt-3">
+              <img src="assets/images/tissot-logo-1.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="clents-logo mt-lg-4 mt-md-3 mt-3">
+              <img src="assets/images/walmart.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="clents-logo mt-lg-4 mt-md-3 mt-3">
+              <img src="assets/images/whitecastle-logo.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+            <div class="clents-logo mt-lg-4 mt-md-3">
+              <img src="assets/images/datastream.png" alt="">
+            </div>
           </div>
         </div>
-     </div>
-    
-     <div class="col-lg-4 col-sm-6">
-      <div class="work-inner-box mt-5">
-        <div class="box-img">
-          <img src="assets/images/curios-front.jpg" alt="">
+      </div>
+
+
+    </section>
+
+    <div class="industries-section">
+      <div class="industries-info text-center">
+        <h1>Industries We Serve</h1>
+        <p>Successfully delivered digital products</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="industries-logo">
+              <img src="assets/images/mobile-app.svg" class="img-fluid" alt="">
+              <h6> On-Demand</h6>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="industries-logo ">
+              <img src="assets/images/joystick.svg" class="img-fluid" alt="">
+              <h6>Game</h6>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="industries-logo mt-lg-0 mt-4">
+              <img src="assets/images/smartphone.svg" class="img-fluid" alt="">
+              <h6> eCommerce</h6>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="industries-logo mt-lg-0 mt-4">
+              <img src="assets/images/money-growth.svg" class="img-fluid" alt="">
+              <h6> Finance</h6>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="industries-logo mt-lg-4 mt-4">
+              <img src="assets/images/healthcare.svg" class="img-fluid" alt="">
+              <h6>Healthcare</h6>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="industries-logo mt-lg-4 mt-4">
+              <img src="assets/images/baker.svg" class="img-fluid" alt="">
+              <h6>Restaurant</h6>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="industries-logo mt-lg-4 mt-4">
+              <img src="assets/images/house.svg" class="img-fluid" alt="">
+              <h6>Real estate</h6>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="industries-logo mt-lg-4 mt-4">
+              <img src="assets/images/travel-case.svg" class="img-fluid" alt="">
+              <h6> Tour & Travels</h6>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="industries-logo mt-lg-4 mt-4">
+              <img src="assets/images/video-tutorials.svg" class="img-fluid" alt="">
+              <h6>Education</h6>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="industries-logo mt-lg-4 mt-4">
+              <img src="assets/images/taxi.svg" class="img-fluid" alt="">
+              <h6>Transport</h6>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="industries-logo mt-lg-4 mt-4">
+              <img src="assets/images/event.svg" class="img-fluid" alt="">
+              <h6>Event</h6>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="industries-logo mt-lg-4 mt-4">
+              <img src="assets/images/groceries.svg" class="img-fluid" alt="">
+              <h6>Grocery</h6>
+            </div>
+          </div>
         </div>
-        <div class="inner-box-text text-center">
-          <h4>Curious</h4>
-          <p>iOS, Android </p>
+      </div>
+    </div>
+
+    <section id="testmonial" class="testmonial">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="testmonial-heading text-center">
+              <span>WHAT OUR CLIENTS SAY ABOUT CUBIX.</span>
+              <h2>Over 1200+ Satisfied Clients and Growing</h2>
+            </div>
+            <div class="review-title">
+              <h4>Read More Reviews</h4>
+            </div>
+            <div class="row pt-4 justify-content-center">
+              <div class="col-lg-4 col-4">
+                <img src="assets/images/reviews-icon-3.png" alt="">
+              </div>
+              <div class="col-lg-4 col-4">
+                <img src="assets/images/reviews-icon-1.png" alt="">
+              </div>
+              <div class="col-lg-4 col-4">
+                <img src="assets/images/reviews-icon-2.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 position-relative">
+            <div class="pl50">
+              <div class="shape">
+                <img src="assets/images/shape-3.svg" alt="">
+              </div>
+              <div id="carouselExampleCaptions" class="carousel slide tcd" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="client-says">
+                      <h3> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum blanditiis modi eos cum
+                        autem cupiditate. Provident eos neque odio, dicta dolores nobis ipsam repellat tempora in
+                        adipisci hic exercitationem?</h3>
+                    </div>
+                    <div class="client-info">
+                      <div class="client-img">
+                        <img src="assets/images/melissa-steward-national-fatherhood-initiative.jpg" class="d-block "
+                          alt="...">
+                      </div>
+                      <div class="client-name">
+                        <h5>Mellisa Steward, VP of maketing</h5>
+                        <p>Some representative placeholder </p>
+                      </div>
+                      <div class="quotes ms-auto">
+                        <i class="fa-solid fa-quote-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="client-says">
+                      <h3> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum blanditiis modi eos cum
+                        autem cupiditate. Provident eos neque odio, dicta dolores nobis ipsam repellat tempora in
+                        adipisci hic exercitationem?</h3>
+                    </div>
+                    <div class="client-info">
+                      <div class="client-img">
+                        <img src="assets/images/karen-agresti-nomidate.jpg" class="d-block" alt="...">
+                      </div>
+                      <div class="client-name">
+                        <h5>Karen Agresti, founder</h5>
+                        <p>Nomidate.</p>
+                      </div>
+                      <div class="quotes ms-auto">
+                        <i class="fa-solid fa-quote-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-   </div>
-   <div class="col-lg-4 col-sm-6">
-    <div class="work-inner-box mt-5">
-      <div class="box-img">
-        <img src="assets/images/hot-set-front.jpg" alt="">
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-8">
+            <div class="contact-heading text-center">
+              <h4>LET'S WORK TOGETHER</h4>
+              <h1>Tell us about your project</h1>
+            </div>
+            <div class="bottom-form">
+              <form class="" action="post" novalidate="novalidate">
+                <div class="row">
+                  <div class="col-md-12 col-xs-12">
+                    <div class="form-group required-control">
+                      <label class="control-label">Name</label>
+                      <input id="name" name="name" type="text" class="form-control" placeholder="" required>
+                    </div>
+                  </div>
+                </div>
+                <div class="row d-flex" id="raw-1">
+                  <div class="col-md-6">
+                    <div class="form-group required-control">
+                      <label class="control-label">Email</label>
+                      <input id="email" name="email" type="email" class="form-control" placeholder="" required>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group required-control">
+                      <label class="control-label">Phone</label>
+                      <input id="phone" name="phone" type="text" class="form-control" placeholder="" required>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row" id="row-1">
+                  <div class="col-md-12 col-xs-12">
+                    <div class="form-group required-control">
+                      <label class="control-label">Message</label>
+                      <textarea name="message" id="message" cols="70" rows="4" required></textarea>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row mt-2" id="row-1">
+                  <div class="col-md-12 col-xs-12">
+                    <div class="form-group required-control">
+                      <button type="submit" id="submitbottom" class="btn">Submit</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="inner-box-text text-center">
-        <h4>Hotset</h4>
-        <p>iOS, Android </p>
+    </section>
+
+    <div class="office">
+      <div class="office-heading text-center">
+        <h1>Our Office</h1>
+      </div>
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-6">
+            <div class="office-info">
+              <h2><i class="fa-solid fa-envelope"></i> &nbsp; goodfirms@cubix.co</h2>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="office-info">
+              <h2><i class="fa-solid fa-phone"></i> &nbsp; 877-757-6846</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-sm-6 ">
+            <div class="city-box">
+              <div class="office-city">
+                <img src="assets/images/west-palm-beach.png" alt="">
+              </div>
+              <div class="city-info">
+                <h4>Florida</h4>
+                <p>700 S. Rosemary Ave, Suite 204-118 West Palm Beach, FL 33401</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="city-box mt-5 pt-3 mt-md-0 pt-md-0">
+              <div class="office-city">
+                <img src="assets/images/karachi-office.png" alt="">
+              </div>
+              <div class="city-info">
+                <h4>Karachi</h4>
+                <p>D23, Block 9 Clifton, Karachi, Sindh 75600, Pakistan</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 offset-md-3 offset-lg-0 offset-sm-3">
+            <div class="city-box mt-lg-0 mt-md-5 mt-sm-5 pt-sm-3 pt-md-5 pt-lg-0 mt-5 pt-3">
+              <div class="office-city">
+                <img src="assets/images/dubai-office.png" alt="">
+              </div>
+              <div class="city-info">
+                <h4>Dubai</h4>
+                <p>Building 11, Level 7, Bay Square, Business Bay, Dubai</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
- </div>
- <div class="col-lg-4 col-sm-6">
-  <div class="work-inner-box mt-5">
-    <div class="box-img">
-      <img src="assets/images/apply-up-front1.png" alt="">
-    </div>
-    <div class="inner-box-text text-center">
-      <h4>ApplyUp</h4>
-      <p>iOS, Android </p>
-    </div>
-  </div>
-     </div>
-       </div>
-     </div>
-   </div>
- </section>
 
-
-
-     <!-- Client section -->
-
-     <section id="clients" class="clients">
+    <footer>
+      <div class="footer-sec-1">
         <div class="container">
-          <h1 class="text-center">Some of our Clients</h1>
           <div class="row">
-            <div class="col-lg-2">
-              <div class="clents-logo">
-                <img src="assets/images/suzuki-logo.png" alt="">
+            <div class="col-lg-4">
+              <div class="footer-heading justify-content-center">
+                <h4>Top App Development Company</h4>
+                <p>We deliver mobile app experiences that get your mobile app trending on the app stores.</p>
               </div>
             </div>
-            <div class="col-lg-2">
-              <div class="clents-logo">
-                <img src="assets/images/artizone-logo.png" alt="">
-              </div>
-            </div>
-            <div class="col-lg-2">
-              <div class="clents-logo">
-                <img src="assets/images/canon-logo-1.png" alt="">
-              </div>
-            </div>
-            <div class="col-lg-2">
-              <div class="clents-logo">
-                <img src="assets/images/unilever.png" alt="">
-              </div>
-            </div>
-            <div class="col-lg-2">
-              <div class="clents-logo">
-                <img src="assets/images/dreamworks-logo.png" alt="">
-              </div>
-            </div>
-            <div class="col-lg-2">
-              <div class="clents-logo">
-                <img src="assets/images/estee-lauder.png" alt="">
-              </div>
-            </div>
-            <div class="col-lg-2">
-              <div class="clents-logo">
-                <img src="assets/images/politico.png" alt="">
-              </div>
-            </div>
-            <div class="col-lg-2">
-              <div class="clents-logo">
-                <img src="assets/images/sapient-logo-1.png" alt="">
-              </div>
-            </div>
-            <div class="col-lg-2">
-              <div class="clents-logo">
-                <img src="assets/images/tissot-logo-1.png" alt="">
-              </div>
-            </div>
-            <div class="col-lg-2">
-              <div class="clents-logo">
-                <img src="assets/images/walmart.png" alt="">
-              </div>
-            </div>
-            <div class="col-lg-2">
-              <div class="clents-logo">
-                <img src="assets/images/whitecastle-logo.png" alt="">
-              </div>
-            </div>
-            <div class="col-lg-2">
-              <div class="clents-logo">
-                <img src="assets/images/datastream.png" alt="">
+            <div class="col-lg-8 mt-sm-5 mt-0">
+              <div class="row formatgin-top">
+                <div class="col-3">
+                  <div class="footer-company-logo">
+                    <img src="assets/images/002.png" alt="">
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="footer-company-logo">
+                    <img src="assets/images/004.png" alt="">
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="footer-company-logo">
+                    <img src="assets/images/003.png" alt="">
+                  </div>
+                </div>
+                <div class="col-3 over-logo">
+                  <div class="footer-company-logo">
+                    <img src="assets/images/001.png" alt="">
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-     </section>
-    
+      </div>
+      <div class="footer-sec-2 text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="footer-social-icon justify-content-center d-flex">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-dribbble"></i></a>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="footer-about">
+                <p>Copyright © 2021 Cubix. All rights reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-   
-    <script
-      src="https://code.jquery.com/jquery-2.2.0.min.js"
-      type="text/javascript"
-    ></script>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
     <!-- JS Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
@@ -618,5 +878,6 @@
     <script src="assets/js/main.js"></script>
 
 
-  </body>
+</body>
+
 </html>

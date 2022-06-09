@@ -129,6 +129,24 @@
 
     justify-content: center;
   }
+  .client-img {
+    width: 20%;
+  }
+  .client-name h5 {
+    color: #050748;
+    font-weight: 700;
+    padding-top: 1rem;
+    font-size: 1rem;
+  }
+  .client-name p {
+    color: #646466e0;
+    font-size: 1rem;
+    margin-top: -0.3rem;
+  }
+  .quotes i {
+    color: #0157ec;
+    font-size: 5rem;
+  }
 }
 @media (max-width: 575px) {
   .home-2-row {
@@ -143,6 +161,25 @@
   .work h1 {
     font-size: 2.4rem;
   }
+  .industries-section .industries-logo {
+    display: inline-block;
+  }
+  .industries-section .industries-logo h6 {
+    margin: 0 0 0 5px;
+    margin-top: 20px;
+    font-size: 0.8rem;
+  }
+  .industries-section .row {
+    margin-left: 5rem;
+  }
+  /* .footer-sec-1 .footer-company-logo img {
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+  } */
+  .formatgin-top {
+    margin-top: 2rem;
+  }
 }
 @media (max-width: 413px) {
   .home-2-row {
@@ -151,13 +188,43 @@
 
     justify-content: center;
   }
+  .industries-section .row {
+    margin-left: 2rem;
+  }
+  .industries-section .industries-logo h6 {
+    font-size: 0.6rem;
+  }
+  .client-img {
+    width: 25%;
+  }
+  .client-name h5 {
+    color: #050748;
+    font-weight: 700;
+    padding-top: 1rem;
+    font-size: 0.9rem;
+  }
+  .client-name p {
+    color: #646466e0;
+    font-size: 0.9rem;
+    margin-top: -0.3rem;
+  }
+  .quotes i {
+    color: #0157ec;
+    font-size: 3rem;
+  }
 }
 @media (max-width: 376px) {
+  .container {
+    width: 300px;
+  }
   .home-2-row {
     margin-left: 1rem;
     margin-right: 2rem;
 
     justify-content: center;
+  }
+  .industries-section .row {
+    margin-left: 0.4rem;
   }
 }
 @media (max-width: 361px) {
@@ -166,6 +233,32 @@
     margin-right: 1rem;
 
     justify-content: center;
+  }
+  .client-img {
+    width: 40%;
+  }
+  .client-name h5 {
+    color: #050748;
+    font-weight: 700;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+  }
+  .client-name p {
+    color: #646466e0;
+    font-size: 0.8rem;
+    margin-top: -0.3rem;
+    line-height: 1rem;
+  }
+  .quotes i {
+    color: #0157ec;
+    font-size: 1rem;
+  }
+  .client-says h3 {
+    color: #646466e0;
+    font-size: 1.075rem;
+    font-weight: 400;
+    line-height: 25px;
+    padding-bottom: 0.5rem;
   }
 }
 @media (max-width: 330px) {
@@ -182,6 +275,12 @@
     margin-right: 0.5rem;
 
     justify-content: center;
+  }
+  .over-logo {
+    display: none;
+  }
+  .footer-sec-1 .footer-heading p {
+    overflow: hidden;
   }
 }
 @media (max-width: 100px) {
